@@ -240,8 +240,8 @@ function initSimulation() {
       sprite: {
         texture:
       "https://uploads-ssl.webflow.com/650833d0628374915846188d/65271ee82cbf8363b420b9f1_Asset%203.svg",
-        xScale: 2,
-        yScale: 2
+        xScale: 1,
+        yScale: 1
       }
     }
   });
