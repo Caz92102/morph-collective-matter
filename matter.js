@@ -83,14 +83,14 @@ function initSimulation() {
       }
     }
   });
-  var tagGrowthmarketing = Bodies.rectangle(containerWidth / 2, 200, 200, 100, {
+  var tagGrowthmarketing = Bodies.rectangle(containerWidth / 2, 200, 50, 25, {
     chamfer: { radius: radius },
     render: {
       sprite: {
         texture:
 	"https://uploads-ssl.webflow.com/650833d0628374915846188d/65292e4f997559049bbb1af8_Group%20249.svg",
-        xScale: 1.5,
-        yScale: 1.5
+        xScale: 1,
+        yScale: 1,
       }
     }
   });
