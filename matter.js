@@ -219,6 +219,7 @@ function initSimulation() {
     tagMaterialdesign,
     tagWebflow,
     tagUserresearch,
+    tagAnimation,
   ]);
 
   // add mouse control
