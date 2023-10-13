@@ -198,7 +198,145 @@ function initSimulation() {
     }
   });
 
-
+  // Branding
+  var tagProjectManagement = Bodies.rectangle(containerWidth / 2 + 150, 500, 164, 56, {
+    chamfer: { radius: radius },
+    render: {
+      sprite: {
+        texture:
+          "https://uploads-ssl.webflow.com/650833d0628374915846188d/652998a8818b1d4d5cefa75d_porject.svg",
+        xScale: 1,
+        yScale: 1
+      }
+    }
+  });
+  var tagVisualidentity = Bodies.rectangle(containerWidth / 2 + 150, 460, 240, 56, {
+    chamfer: { radius: radius },
+    render: {
+      sprite: {
+        texture:
+          "https://uploads-ssl.webflow.com/650833d0628374915846188d/652999033c621cb4799ba5e8_vi.svg",
+        xScale: 1,
+        yScale: 1
+      }
+    }
+  });
+  var tagArtdirection = Bodies.rectangle(containerWidth / 2 + 250, 420, 200, 56, {
+    chamfer: { radius: radius },
+    render: {
+      sprite: {
+        texture:
+          "https://uploads-ssl.webflow.com/650833d0628374915846188d/652999ece7895db2b0ae42aa_ad-matter.svg",
+        xScale: 1,
+        yScale: 1
+      }
+    }
+  });
+  var tagCopymatter = Bodies.rectangle(containerWidth / 2 - 75, 380, 160, 56, {
+    chamfer: { radius: radius },
+    render: {
+      sprite: {
+        texture:
+          "https://uploads-ssl.webflow.com/650833d0628374915846188d/65299a579f5b005c8550641d_copy-matter.svg",
+        xScale: 1,
+        yScale: 1
+      }
+    }
+  });
+  var tagPhotography = Bodies.rectangle(
+    containerWidth / 2 - 74, 540, 248, 56,
+    {
+      chamfer: { radius: radius },
+      render: {
+        sprite: {
+          texture:
+            "https://uploads-ssl.webflow.com/650833d0628374915846188d/65299b214415405ab9d24979_photo-matter.svg",
+          xScale: 1,
+          yScale: 1
+        }
+      }
+    }
+  );
+  var tagVideography = Bodies.rectangle(
+    containerWidth / 2 - 74, 540, 248, 56,
+    {
+      chamfer: { radius: radius },
+      render: {
+        sprite: {
+          texture:
+            "https://uploads-ssl.webflow.com/650833d0628374915846188d/65299c2cd70a43d788bf3a45_videography-matter.svg",
+          xScale: 1,
+          yScale: 1
+        }
+      }
+    }
+  );
+  var tagIllustrations = Bodies.rectangle(containerWidth / 2 - 75, 380, 160, 56 {
+    chamfer: { radius: radius },
+    render: {
+      sprite: {
+        texture:
+          "https://uploads-ssl.webflow.com/650833d0628374915846188d/65299c97d43fb9256765ae3d_illustrations.svg",
+        xScale: 1,
+        yScale: 1
+      }
+    }
+  });
+  var tagWorkshops = Bodies.rectangle(containerWidth / 2 - 142, 440, 186, 56, {
+    chamfer: { radius: radius },
+    render: {
+      sprite: {
+        texture:
+          "https://uploads-ssl.webflow.com/650833d0628374915846188d/65299cf4bb35ac50f4e3ea56_workshops.svg",
+        xScale: 1,
+        yScale: 1
+      }
+    }
+  });
+  var tagCustomgraphics = Bodies.rectangle(containerWidth / 2 - 142, 440, 186, 56, {
+    chamfer: { radius: radius },
+    render: {
+      sprite: {
+        texture:
+          "https://uploads-ssl.webflow.com/650833d0628374915846188d/65299d3f4415405ab9d4835f_custom.svg",
+        xScale: 1,
+        yScale: 1
+      }
+    }
+  });
+  var tagBrandstrategy = Bodies.rectangle(containerWidth / 2 - 242, 420, 168, 56, {
+    chamfer: { radius: radius },
+    render: {
+      sprite: {
+        texture:
+          "https://uploads-ssl.webflow.com/650833d0628374915846188d/65299dc3e4d87e851177e8b2_brandstrategy.svg",
+        xScale: 1,
+        yScale: 1
+      }
+    }
+  });
+  var tagStorytelling = Bodies.rectangle(containerWidth / 2 - 242, 420, 168, 56, {
+    chamfer: { radius: radius },
+    render: {
+      sprite: {
+        texture:
+          "https://uploads-ssl.webflow.com/650833d0628374915846188d/65299e55f7a68a86046dfba3_storytelling.svg",
+        xScale: 1,
+        yScale: 1
+      }
+    }
+  });
+    var tagProduction = Bodies.rectangle(containerWidth / 59, 260, 172, 56, {
+    chamfer: { radius: radius },
+    render: {
+      sprite: {
+        texture:
+          "https://uploads-ssl.webflow.com/650833d0628374915846188d/65299e0cb910c6e29934501f_production.svg",
+        xScale: 1,
+        yScale: 1
+      }
+    }
+  });
 
 
   
@@ -220,6 +358,18 @@ function initSimulation() {
     tagWebflow,
     tagUserresearch,
     tagAnimation,
+    tagProduction,
+    tagStorytelling,
+    tagBrandstrategy,
+    tagCustomgraphics,
+    tagWorkshops,
+    tagIllustrations,
+    tagVideography,
+    tagPhotography,
+    tagCopymatter,
+    tagArtdirection,
+    tagVisualidentity,
+    tagProjectManagement,
   ]);
 
   // add mouse control
