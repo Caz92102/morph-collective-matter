@@ -34,7 +34,7 @@ function initSimulation() {
   // create bounds
   var ground = Bodies.rectangle(
     containerWidth / 2 + 160,
-    containerHeight + 50,
+    containerHeight + 0,
     containerWidth + 320,
     160,
     { render: { fillStyle: "#000000" }, isStatic: true }
@@ -175,7 +175,7 @@ function initSimulation() {
       }
     }
   });
-  var tagSem = Bodies.rectangle(containerWidth / 2, 200, 60, 34, {
+  var tagSem = Bodies.rectangle(containerWidth / 2+30, 200, 60, 34, {
     chamfer: { radius: radius },
     render: {
       sprite: {
