@@ -118,8 +118,7 @@ function initSimulation() {
     }
   });
   var tagMotion = Bodies.rectangle(
-    containerWidth / 2 - 74, 540, 248, 56,
-    {
+    containerWidth / 2 - 74, 540, 248, 56, {
       chamfer: { radius: radius },
       render: {
         sprite: {
@@ -197,7 +196,6 @@ function initSimulation() {
       }
     }
   });
-
   // Branding
   var tagProjectManagement = Bodies.rectangle(containerWidth / 2 + 150, 500, 164, 56, {
     chamfer: { radius: radius },
@@ -324,10 +322,6 @@ function initSimulation() {
       }
     }
   });
-
-
-  
-
   // add all of the bodies to the world
   World.add(engine.world, [
     ground,
