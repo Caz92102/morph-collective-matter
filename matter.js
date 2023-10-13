@@ -72,7 +72,7 @@ function initSimulation() {
   // create objects
 
   // tagVideo & design
-  var tagSociallistening = Bodies.rectangle(containerWidth / 2 + 69, 50, 138, 42, {
+  var tagSociallistening = Bodies.rectangle(containerWidth / 2, 50, 138, 42, {
     chamfer: { radius: radius },
     render: {
       sprite: {
@@ -83,7 +83,7 @@ function initSimulation() {
       }
     }
   });
-  var tagGrowthmarketing = Bodies.rectangle(containerWidth / 2 + 60, 200, 138, 66, {
+  var tagGrowthmarketing = Bodies.rectangle(containerWidth / 2, 200, 138, 66, {
     chamfer: { radius: radius },
     render: {
       sprite: {
@@ -94,7 +94,7 @@ function initSimulation() {
       }
     }
   });
-  var tagEcommerce = Bodies.rectangle(containerWidth / 2 + 75, 200, 138, 31, {
+  var tagEcommerce = Bodies.rectangle(containerWidth / 2, 200, 138, 31, {
     chamfer: { radius: radius },
     render: {
       sprite: {
@@ -105,7 +105,7 @@ function initSimulation() {
       }
     }
   });
-  var tagKpi = Bodies.rectangle(containerWidth / 2 + 75, 200, 120, 68, {
+  var tagKpi = Bodies.rectangle(containerWidth / 2, 200, 120, 68, {
     chamfer: { radius: radius },
     render: {
       sprite: {
@@ -117,7 +117,7 @@ function initSimulation() {
     }
   });
   var tagConversionoptimization = Bodies.rectangle(
-    containerWidth / 2 + 74, 200, 138, 50,
+    containerWidth / 2, 200, 138, 50,
     {
       chamfer: { radius: radius },
       render: {
@@ -130,7 +130,7 @@ function initSimulation() {
       }
     }
   );
-  var tagCostumerjourney = Bodies.rectangle(containerWidth / 2 + 174, 200, 150, 32, {
+  var tagCostumerjourney = Bodies.rectangle(containerWidth / 2, 200, 150, 32, {
     chamfer: { radius: radius },
     render: {
       sprite: {
@@ -141,7 +141,7 @@ function initSimulation() {
       }
     }
   });
-  var tagContentchannel = Bodies.rectangle(containerWidth / 2 + 142, 200, 162, 52, {
+  var tagContentchannel = Bodies.rectangle(containerWidth / 2, 200, 162, 52, {
     chamfer: { radius: radius },
     render: {
       sprite: {
@@ -152,7 +152,7 @@ function initSimulation() {
       }
     }
   });
-  var tagConsumerbehavior = Bodies.rectangle(containerWidth / 2 + 10, 200, 154, 32, {
+  var tagConsumerbehavior = Bodies.rectangle(containerWidth / 2, 200, 154, 32, {
     chamfer: { radius: radius },
     render: {
       sprite: {
@@ -164,7 +164,7 @@ function initSimulation() {
     }
   });
   //misc
-  var tagSeo = Bodies.rectangle(containerWidth / 2 + 242, 200, 60, 32, {
+  var tagSeo = Bodies.rectangle(containerWidth / 2, 200, 60, 32, {
     chamfer: { radius: radius },
     render: {
       sprite: {
@@ -175,7 +175,7 @@ function initSimulation() {
       }
     }
   });
-  var tagSem = Bodies.rectangle(containerWidth / 2 + 30, 200, 60, 34, {
+  var tagSem = Bodies.rectangle(containerWidth / 2, 200, 60, 34, {
     chamfer: { radius: radius },
     render: {
       sprite: {
@@ -197,7 +197,7 @@ function initSimulation() {
       }
     }
   });
-  var tagAdvertising = Bodies.rectangle(containerWidth / 2 + 59, 200, 172, 49, {
+  var tagAdvertising = Bodies.rectangle(containerWidth / 2, 200, 172, 49, {
     chamfer: { radius: radius },
     render: {
       sprite: {
@@ -208,7 +208,7 @@ function initSimulation() {
       }
     }
   });
-  var tagDigitalstrategy = Bodies.rectangle(containerWidth / 2 + 59, 200, 138, 28, {
+  var tagDigitalstrategy = Bodies.rectangle(containerWidth / 2, 200, 138, 28, {
     chamfer: { radius: radius },
     render: {
       sprite: {
@@ -219,7 +219,7 @@ function initSimulation() {
       }
     }
   });
-  var tagCommsplanning = Bodies.rectangle(containerWidth / 2 + 59, 200, 153, 32, {
+  var tagCommsplanning = Bodies.rectangle(containerWidth / 2, 200, 153, 32, {
     chamfer: { radius: radius },
     render: {
       sprite: {
@@ -230,7 +230,7 @@ function initSimulation() {
       }
     }
   });
-  var tagCRM = Bodies.rectangle(containerWidth / 2 + 59, 200, 138, 28, {
+  var tagCRM = Bodies.rectangle(containerWidth / 2, 200, 138, 28, {
     chamfer: { radius: radius },
     render: {
       sprite: {
