@@ -249,7 +249,7 @@ function initSimulation() {
     wallRight,
     roof,
 
-tagsociallistening,
+tagSociallistening,
 tagCRM,
 tagCommsplanning,
 tagDigitalstrategy,
