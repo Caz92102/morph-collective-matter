@@ -253,6 +253,17 @@ function initSimulation() {
       }
     }
   });
+        var tagWorkshops = Bodies.rectangle(containerWidth / 2 - 142, 440, 186, 56, {
+    chamfer: { radius: radius },
+    render: {
+      sprite: {
+        texture:
+          "https://uploads-ssl.webflow.com/650833d0628374915846188d/65299cf4bb35ac50f4e3ea56_workshops.svg",
+        xScale: 1,
+        yScale: 1
+      }
+    }
+  });
   
   // add all of the bodies to the world
   World.add(engine.world, [
@@ -276,6 +287,7 @@ function initSimulation() {
     tagVideo,
     tagPhoto,
     tagIllustrations,
+    tagWorkshops,
   ]);
 
   // add mouse control
