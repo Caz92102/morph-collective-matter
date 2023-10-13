@@ -72,7 +72,7 @@ function initSimulation() {
   // create objects
 
   // tagVideo & design
-  var tagSociallistening = Bodies.rectangle(containerWidth / 2 + 150, 200, 138, 42, {
+  var tagSociallistening = Bodies.rectangle(containerWidth / 2 + 60, 200, 138, 42, {
     chamfer: { radius: radius },
     render: {
       sprite: {
@@ -83,7 +83,7 @@ function initSimulation() {
       }
     }
   });
-  var tagGrowthmarketing = Bodies.rectangle(containerWidth / 2 + 150, 200, 138, 66, {
+  var tagGrowthmarketing = Bodies.rectangle(containerWidth / 2 + 60, 200, 138, 66, {
     chamfer: { radius: radius },
     render: {
       sprite: {
@@ -94,7 +94,7 @@ function initSimulation() {
       }
     }
   });
-  var tagEcommerce = Bodies.rectangle(containerWidth / 2 + 250, 200, 138, 31, {
+  var tagEcommerce = Bodies.rectangle(containerWidth / 2 + 75, 200, 138, 31, {
     chamfer: { radius: radius },
     render: {
       sprite: {
@@ -175,7 +175,7 @@ function initSimulation() {
       }
     }
   });
-  var tagSem = Bodies.rectangle(containerWidth / 2 + 60, 200, 60, 34, {
+  var tagSem = Bodies.rectangle(containerWidth / 2 + 30, 200, 60, 34, {
     chamfer: { radius: radius },
     render: {
       sprite: {
