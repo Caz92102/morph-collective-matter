@@ -89,8 +89,8 @@ function initSimulation() {
       sprite: {
         texture:
 	"https://uploads-ssl.webflow.com/650833d0628374915846188d/65292e4f997559049bbb1af8_Group%20249.svg",
-        xScale: 1,
-        yScale: 1
+        xScale: 1.5,
+        yScale: 1.5
       }
     }
   });
@@ -100,12 +100,12 @@ function initSimulation() {
       sprite: {
         texture:
          "https://uploads-ssl.webflow.com/650833d0628374915846188d/65292e50364862915ffd4e92_Group%20253.svg",
-        xScale: 1,
-        yScale: 1
+        xScale: 1.5,
+        yScale: 1.5
       }
     }
   });
-  var tagKpi = Bodies.rectangle(containerWidth / 2 - 75, 200, 120, 68, {
+  var tagKpi = Bodies.rectangle(containerWidth / 2 + 75, 200, 120, 68, {
     chamfer: { radius: radius },
     render: {
       sprite: {
@@ -117,7 +117,7 @@ function initSimulation() {
     }
   });
   var tagConversionoptimization = Bodies.rectangle(
-    containerWidth / 2 - 74, 200, 138, 50,
+    containerWidth / 2 + 74, 200, 138, 50,
     {
       chamfer: { radius: radius },
       render: {
@@ -141,7 +141,7 @@ function initSimulation() {
       }
     }
   });
-  var tagContentchannel = Bodies.rectangle(containerWidth / 2 - 142, 200, 162, 52, {
+  var tagContentchannel = Bodies.rectangle(containerWidth / 2 + 142, 200, 162, 52, {
     chamfer: { radius: radius },
     render: {
       sprite: {
@@ -152,7 +152,7 @@ function initSimulation() {
       }
     }
   });
-  var tagConsumerbehavior = Bodies.rectangle(containerWidth / 2 - 10, 200, 154, 32, {
+  var tagConsumerbehavior = Bodies.rectangle(containerWidth / 2 + 10, 200, 154, 32, {
     chamfer: { radius: radius },
     render: {
       sprite: {
@@ -164,7 +164,7 @@ function initSimulation() {
     }
   });
   //misc
-  var tagSeo = Bodies.rectangle(containerWidth / 2 - 242, 200, 60, 32, {
+  var tagSeo = Bodies.rectangle(containerWidth / 2 + 242, 200, 60, 32, {
     chamfer: { radius: radius },
     render: {
       sprite: {
@@ -197,7 +197,7 @@ function initSimulation() {
       }
     }
   });
-  var tagAdvertising = Bodies.rectangle(containerWidth / 2 - 59, 200, 172, 49, {
+  var tagAdvertising = Bodies.rectangle(containerWidth / 2 + 59, 200, 172, 49, {
     chamfer: { radius: radius },
     render: {
       sprite: {
@@ -208,7 +208,7 @@ function initSimulation() {
       }
     }
   });
-  var tagDigitalstrategy = Bodies.rectangle(containerWidth / 2 - 59, 200, 138, 28, {
+  var tagDigitalstrategy = Bodies.rectangle(containerWidth / 2 + 59, 200, 138, 28, {
     chamfer: { radius: radius },
     render: {
       sprite: {
@@ -219,7 +219,7 @@ function initSimulation() {
       }
     }
   });
-  var tagCommsplanning = Bodies.rectangle(containerWidth / 2 - 59, 200, 153, 32, {
+  var tagCommsplanning = Bodies.rectangle(containerWidth / 2 + 59, 200, 153, 32, {
     chamfer: { radius: radius },
     render: {
       sprite: {
@@ -230,7 +230,7 @@ function initSimulation() {
       }
     }
   });
-  var tagCRM = Bodies.rectangle(containerWidth / 2 - 59, 200, 138, 28, {
+  var tagCRM = Bodies.rectangle(containerWidth / 2 + 59, 200, 138, 28, {
     chamfer: { radius: radius },
     render: {
       sprite: {
