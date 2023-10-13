@@ -220,7 +220,17 @@ function initSimulation() {
       }
     }
   });
-
+  var tagVideo = Bodies.rectangle(containerWidth / 2 + 150, 460, 240, 56, {
+    chamfer: { radius: radius },
+    render: {
+      sprite: {
+        texture:
+          "https://uploads-ssl.webflow.com/650833d0628374915846188d/6529ab9ae3e8f97337a0b38f_vide240.svg",
+        xScale: 1,
+        yScale: 1
+      }
+    }
+  });
   
   // add all of the bodies to the world
   World.add(engine.world, [
@@ -241,6 +251,7 @@ function initSimulation() {
     tagArtdirection,
     tagVisualidentity,
     tagProjectManagement,
+    tagVideo,
   ]);
 
   // add mouse control
