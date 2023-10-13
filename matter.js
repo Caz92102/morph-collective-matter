@@ -275,6 +275,7 @@ function initSimulation() {
     tagProjectManagement,
     tagVideo,
     tagPhoto,
+    tagillustrations,
   ]);
 
   // add mouse control
