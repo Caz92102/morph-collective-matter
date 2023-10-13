@@ -105,7 +105,7 @@ function initSimulation() {
       }
     }
   });
-  var tagKpi = Bodies.rectangle(containerWidth / 2 - 75, 200, 66, 34, {
+  var tagKpi = Bodies.rectangle(containerWidth / 2 - 75, 200, 120, 68, {
     chamfer: { radius: radius },
     render: {
       sprite: {
