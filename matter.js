@@ -288,12 +288,12 @@ function initSimulation() {
     }
   });
   
-          var tagProduction = Bodies.rectangle(containerWidth / 2 + 174, 490, 105, 56, {
+          var tagProduction = Bodies.rectangle(containerWidth / 2 - 142, 440, 186, 56, {
     chamfer: { radius: radius },
     render: {
       sprite: {
         texture:
-          "https://uploads-ssl.webflow.com/650833d0628374915846188d/6529ba4b43bbdb2c5589f53b_production2.svg",
+          "https://uploads-ssl.webflow.com/650833d0628374915846188d/6529c01279cbf4ed07486acc_prod186.svg",
         xScale: 1,
         yScale: 1
       }
