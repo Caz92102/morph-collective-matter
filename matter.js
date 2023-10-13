@@ -275,6 +275,18 @@ function initSimulation() {
       }
     }
   });
+
+         var tagBrandstrategy = Bodies.rectangle(containerWidth / 2 + 150, 460, 240, 56, {
+    chamfer: { radius: radius },
+    render: {
+      sprite: {
+        texture:
+          "https://uploads-ssl.webflow.com/650833d0628374915846188d/6529b6c4e4e95fb82f8d710f_brand-strategy.svg",
+        xScale: 1,
+        yScale: 1
+      }
+    }
+  });
   
   // add all of the bodies to the world
   World.add(engine.world, [
@@ -300,6 +312,7 @@ function initSimulation() {
     tagIllustrations,
     tagWorkshops,
     tagCustom,
+    tagBrandstrategy,
   ]);
 
   // add mouse control
