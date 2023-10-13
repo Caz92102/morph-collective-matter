@@ -220,30 +220,6 @@ function initSimulation() {
       }
     }
   });
-  var tagPhotography = Bodies.rectangle(containerWidth / 2 - 74, 540, 248, 56, {
-      chamfer: { radius: radius },
-      render: {
-        sprite: {
-          texture:
-            "https://uploads-ssl.webflow.com/650833d0628374915846188d/65299b214415405ab9d24979_photo-matter.svg",
-          xScale: 1,
-          yScale: 1
-        }
-      }
-    }
-  });
-  var tagVideography = Bodies.rectangle(containerWidth / 2 - 74, 540, 248, 56, {
-      chamfer: { radius: radius },
-      render: {
-        sprite: {
-          texture:
-            "https://uploads-ssl.webflow.com/650833d0628374915846188d/65299c2cd70a43d788bf3a45_videography-matter.svg",
-          xScale: 1,
-          yScale: 1
-        }
-      }
-    }
-  });
 
   
   // add all of the bodies to the world
@@ -265,8 +241,6 @@ function initSimulation() {
     tagArtdirection,
     tagVisualidentity,
     tagProjectManagement,
-    tagVideography,
-    tagPhotography,
   ]);
 
   // add mouse control
