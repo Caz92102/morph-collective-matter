@@ -312,7 +312,7 @@ function initSimulation() {
     }
   });
 
-             var tagContentCreation = Bodies.rectangle(containerWidth / 2 + 250, 420, 200, 56, {
+             var tagContentcreation = Bodies.rectangle(containerWidth / 2 + 250, 420, 200, 56, {
     chamfer: { radius: radius },
     render: {
       sprite: {
@@ -351,6 +351,7 @@ function initSimulation() {
     tagBrandstrategy,
     tagProduction,
     tagStorytelling,
+    tagContentcreation,
   ]);
 
   // add mouse control
