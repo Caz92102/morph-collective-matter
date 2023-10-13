@@ -72,14 +72,14 @@ function initSimulation() {
   // create objects
 
   // tagVideo & design
-  var tagSociallistening = Bodies.rectangle(containerWidth / 2 + 69, 600, 138, 42, {
+  var tagSociallistening = Bodies.rectangle(containerWidth / 2 + 69, 50, 138, 42, {
     chamfer: { radius: radius },
     render: {
       sprite: {
         texture:
           "https://uploads-ssl.webflow.com/650833d0628374915846188d/65292e509d83e70c72abbc2e_Group%20251.svg",
-        xScale: 2,
-        yScale: 2,
+        xScale: 1,
+        yScale: 1,
       }
     }
   });
