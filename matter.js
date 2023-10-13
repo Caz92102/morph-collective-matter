@@ -276,6 +276,9 @@ function initSimulation() {
     tagArtdirection,
     tagVisualidentity,
     tagProjectManagement,
+    tagVideography,
+    tagPhotography,
+    tagCopymatter,
     
   ]);
 
