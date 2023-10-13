@@ -1,6 +1,4 @@
-
-
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.19.0/matter.min.js"></script>
 <script>
 function initSimulation() {
   var Engine = Matter.Engine,
@@ -30,7 +28,7 @@ function initSimulation() {
       pixelRatio: 1,
       background: "transparent",
       border: "none",
-      wireframes: false ,
+      wireframes: false
     }
   });
 
@@ -75,170 +73,174 @@ function initSimulation() {
   // create objects
 
   // tagVideo & design
-  var tagSociallistening = Bodies.rectangle(containerWidth / 2 + 150, 500, 138, 42, {
+  var tagUiUx = Bodies.rectangle(containerWidth / 2 + 150, 500, 164, 56, {
     chamfer: { radius: radius },
     render: {
       sprite: {
         texture:
-          "https://uploads-ssl.webflow.com/650833d0628374915846188d/65292e509d83e70c72abbc2e_Group%20251.svg",
-        xScale: 1,
-        yScale: 1,
-      }
-    }
-  });
-  var tagGrowthmarketing = Bodies.rectangle(containerWidth / 2 + 150, 460, 138, 66, {
-    chamfer: { radius: radius },
-    render: {
-      sprite: {
-        texture:
-	"https://uploads-ssl.webflow.com/650833d0628374915846188d/65292e4f997559049bbb1af8_Group%20249.svg",
+          "https://uploads-ssl.webflow.com/64f41ea3b31af27272713c03/64f47541d38f6886e5747c1d_uiux.svg",
         xScale: 1,
         yScale: 1
       }
     }
   });
-  var tagEcommerce = Bodies.rectangle(containerWidth / 2 + 250, 420, 138, 31, {
+  var tagWordpress = Bodies.rectangle(containerWidth / 2 + 150, 460, 240, 56, {
     chamfer: { radius: radius },
     render: {
       sprite: {
         texture:
-         "https://uploads-ssl.webflow.com/650833d0628374915846188d/65292e50364862915ffd4e92_Group%20253.svg",
+          "https://uploads-ssl.webflow.com/64f41ea3b31af27272713c03/64f47540055ab00edffa0a68_wordpress.svg",
         xScale: 1,
         yScale: 1
       }
     }
   });
-  var tagKpi = Bodies.rectangle(containerWidth / 2 - 75, 380, 66, 34, {
+  var tagWebflow = Bodies.rectangle(containerWidth / 2 + 250, 420, 200, 56, {
     chamfer: { radius: radius },
     render: {
       sprite: {
         texture:
-     "https://uploads-ssl.webflow.com/650833d0628374915846188d/65292e4e7c26ce1cd9c74570_Group%20223.svg",
+          "https://uploads-ssl.webflow.com/64f41ea3b31af27272713c03/64f475405a7c8ff69c27ed37_webflow.svg",
         xScale: 1,
         yScale: 1
       }
     }
   });
-  var tagConversionoptimization = Bodies.rectangle(
-    containerWidth / 2 - 74, 540, 138, 50,
+  var tagWhitelevel = Bodies.rectangle(containerWidth / 2 - 75, 380, 160, 56, {
+    chamfer: { radius: radius },
+    render: {
+      sprite: {
+        texture:
+          "https://uploads-ssl.webflow.com/64f41ea3b31af27272713c03/64f47540c9a2047edbb293d1_whitelevel.svg",
+        xScale: 1,
+        yScale: 1
+      }
+    }
+  });
+  // video
+  var tagWebflowgreen = Bodies.rectangle(
+    containerWidth / 2 - 74,
+    540,
+    248,
+    56,
     {
       chamfer: { radius: radius },
       render: {
         sprite: {
           texture:
-          "https://uploads-ssl.webflow.com/650833d0628374915846188d/65292e4f7f97d75a75987a31_Group%20248.svg",
+            "https://uploads-ssl.webflow.com/64f41ea3b31af27272713c03/64f47540487abf2c397d777f_webflow-green.svg",
           xScale: 1,
           yScale: 1
         }
       }
     }
   );
-  var tagCostumerjourney = Bodies.rectangle(containerWidth / 2 + 174, 490, 150, 32, {
+  var tagSass = Bodies.rectangle(containerWidth / 2 + 174, 490, 105, 56, {
     chamfer: { radius: radius },
     render: {
       sprite: {
         texture:
-          "https://uploads-ssl.webflow.com/650833d0628374915846188d/65292e4fbeb8ced8d08e15f3_Group%20246.svg",
+          "https://uploads-ssl.webflow.com/64f41ea3b31af27272713c03/64f475407ebe06e52f9283d1_sass.svg",
         xScale: 1,
         yScale: 1
       }
     }
   });
-  var tagContentchannel = Bodies.rectangle(containerWidth / 2 - 142, 440, 162, 52, {
+  var tagWeb = Bodies.rectangle(containerWidth / 2 - 142, 440, 186, 56, {
     chamfer: { radius: radius },
     render: {
       sprite: {
         texture:
-     "https://uploads-ssl.webflow.com/650833d0628374915846188d/65292e50a852708cdf0d9aec_Group%20250.svg",
+          "https://uploads-ssl.webflow.com/64f41ea3b31af27272713c03/64f47540f762b61424410849_web.svg",
         xScale: 1,
         yScale: 1
       }
     }
   });
-  var tagConsumerbehavior = Bodies.rectangle(containerWidth / 2 - 10, 260, 154, 32, {
+  var tagStartup = Bodies.rectangle(containerWidth / 2 - 10, 260, 128, 56, {
     chamfer: { radius: radius },
     render: {
       sprite: {
         texture:
-        "https://uploads-ssl.webflow.com/650833d0628374915846188d/65292e4ffe4628f37ccdffb3_Group%20247.svg",
+          "https://uploads-ssl.webflow.com/64f41ea3b31af27272713c03/64f475402ae28c15adeba62f_startup.svg",
         xScale: 1,
         yScale: 1
       }
     }
   });
   //misc
-  var tagSeo = Bodies.rectangle(containerWidth / 2 - 242, 420, 60, 32, {
+  var tagMaintence = Bodies.rectangle(containerWidth / 2 - 242, 420, 168, 56, {
     chamfer: { radius: radius },
     render: {
       sprite: {
         texture:
-     "https://uploads-ssl.webflow.com/650833d0628374915846188d/65292e4e71488398156972fc_Group%20218.svg",
+          "https://uploads-ssl.webflow.com/64f41ea3b31af27272713c03/64f47540f86ad4f4175a1e69_maintence.svg",
         xScale: 1,
         yScale: 1
       }
     }
   });
-  var tagSem = Bodies.rectangle(containerWidth / 2 + 60, 380, 60, 34, {
+  var tagIntegration = Bodies.rectangle(containerWidth / 2 + 60, 380, 155, 56, {
     chamfer: { radius: radius },
     render: {
       sprite: {
         texture:
-       "https://uploads-ssl.webflow.com/650833d0628374915846188d/65292e4f264dedce35e0301c_Group%20241.svg",
+          "https://uploads-ssl.webflow.com/64f41ea3b31af27272713c03/64f47540035d9b03fc33e447_integration.svg",
         xScale: 1,
         yScale: 1
       }
     }
   });
-  var tagAcquisition = Bodies.rectangle(containerWidth / 2, 360, 138, 50, {
+  var tagMotion = Bodies.rectangle(containerWidth / 2, 360, 180, 56, {
     chamfer: { radius: radius },
     render: {
       sprite: {
         texture:
-          "https://uploads-ssl.webflow.com/650833d0628374915846188d/65292e4f264dedce35e0301c_Group%20241.svg",
+          "https://uploads-ssl.webflow.com/64f41ea3b31af27272713c03/64f475405a7c8ff69c27ed00_motion.svg",
         xScale: 1,
         yScale: 1
       }
     }
   });
-  var tagAdvertising = Bodies.rectangle(containerWidth / 2 - 59, 260, 172, 49, {
+  var tagPay = Bodies.rectangle(containerWidth / 2 - 59, 260, 172, 56, {
     chamfer: { radius: radius },
     render: {
       sprite: {
         texture:
-    "https://uploads-ssl.webflow.com/650833d0628374915846188d/65292e4ed832aae1bf467b36_Group%20233.svg",
+          "https://uploads-ssl.webflow.com/64f41ea3b31af27272713c03/64f475406ef461a95eaa0f12_pay.svg",
         xScale: 1,
         yScale: 1
       }
     }
   });
-  var tagDigitalstrategy = Bodies.rectangle(containerWidth / 2 - 59, 260, 138, 28, {
+  var tagGsap = Bodies.rectangle(containerWidth / 2 - 59, 260, 115, 56, {
     chamfer: { radius: radius },
     render: {
       sprite: {
         texture:
-         "https://uploads-ssl.webflow.com/650833d0628374915846188d/65292e4e5ec19109e2cc63ef_Group%20222.svg",
+          "https://uploads-ssl.webflow.com/64f41ea3b31af27272713c03/64f47540f86ad4f4175a1df1_gsap.svg",
         xScale: 1,
         yScale: 1
       }
     }
   });
-  var tagCommsplanning = Bodies.rectangle(containerWidth / 2 - 59, 260, 153, 32, {
+  var tagFigma = Bodies.rectangle(containerWidth / 2 - 59, 260, 210, 56, {
     chamfer: { radius: radius },
     render: {
       sprite: {
         texture:
-     "https://uploads-ssl.webflow.com/650833d0628374915846188d/65292e4fb584cf77f8c64c1b_Group%20245.svg",
+          "https://uploads-ssl.webflow.com/64f41ea3b31af27272713c03/64f475407a05afc618131310_figma.svg",
         xScale: 1,
         yScale: 1
       }
     }
   });
-  var tagCRM = Bodies.rectangle(containerWidth / 2 - 59, 260, 138, 28, {
+  var tagMigration = Bodies.rectangle(containerWidth / 2 - 59, 260, 145, 56, {
     chamfer: { radius: radius },
     render: {
       sprite: {
         texture:
-      "https://uploads-ssl.webflow.com/650833d0628374915846188d/65292e4e9f1800f5040f9c0c_Group%20219.svg",
+          "https://uploads-ssl.webflow.com/64f41ea3b31af27272713c03/64f47540bfb0eee6858d556a_migration.svg",
         xScale: 1,
         yScale: 1
       }
@@ -247,38 +249,25 @@ function initSimulation() {
 
   // add all of the bodies to the world
   World.add(engine.world, [
-ground,
-wallLeft,
-wallRight,
-roof,
-tagSociallistening,
-tagCRM,
-tagCommsplanning,
-tagDigitalstrategy,
-tagAdvertising,
-tagAcquisition,
-tagSem,
-tagSeo,
-tagConsumerbehavior,
-tagContentchannel,
-tagCostumerjourney,
-tagConversionoptimization,
-tagKpi,
-tagEcommerce,
-tagGrowthmarketing,
-tagSociallistening,
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	
- 
+    ground,
+    wallLeft,
+    wallRight,
+    roof,
+    tagUiUx,
+    tagWordpress,
+    tagWebflow,
+    tagWhitelevel,
+    tagWebflowgreen,
+    tagSass,
+    tagWeb,
+    tagStartup,
+    tagMaintence,
+    tagIntegration,
+    tagMotion,
+    tagPay,
+    tagGsap,
+    tagFigma,
+    tagMigration,
   ]);
 
   // add mouse control
