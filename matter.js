@@ -220,6 +220,42 @@ function initSimulation() {
       }
     }
   });
+ var tagCopymatter = Bodies.rectangle(containerWidth / 2 - 75, 380, 160, 56, {
+    chamfer: { radius: radius },
+    render: {
+      sprite: {
+        texture:
+          "https://uploads-ssl.webflow.com/650833d0628374915846188d/65299a579f5b005c8550641d_copy-matter.svg",
+        xScale: 1,
+        yScale: 1
+      }
+    }
+  });
+  var tagPhotography = Bodies.rectangle(containerWidth / 2 - 74, 540, 248, 56, {
+      chamfer: { radius: radius },
+      render: {
+        sprite: {
+          texture:
+            "https://uploads-ssl.webflow.com/650833d0628374915846188d/65299b214415405ab9d24979_photo-matter.svg",
+          xScale: 1,
+          yScale: 1
+        }
+      }
+    }
+  });
+  var tagVideography = Bodies.rectangle(containerWidth / 2 - 74, 540, 248, 56, {
+      chamfer: { radius: radius },
+      render: {
+        sprite: {
+          texture:
+            "https://uploads-ssl.webflow.com/650833d0628374915846188d/65299c2cd70a43d788bf3a45_videography-matter.svg",
+          xScale: 1,
+          yScale: 1
+        }
+      }
+    }
+  });
+
   
   // add all of the bodies to the world
   World.add(engine.world, [
