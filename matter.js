@@ -34,7 +34,7 @@ function initSimulation() {
   // create bounds
   var ground = Bodies.rectangle(
     containerWidth / 2 + 160,
-    containerHeight + 100,
+    containerHeight + 50,
     containerWidth + 320,
     160,
     { render: { fillStyle: "#000000" }, isStatic: true }
