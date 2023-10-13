@@ -72,7 +72,7 @@ function initSimulation() {
   // create objects
 
   // tagVideo & design
-  var tagSociallistening = Bodies.rectangle(containerWidth / 2 + 60, 500, 138, 42, {
+  var tagSociallistening = Bodies.rectangle(containerWidth / 2 + 80, 300, 138, 42, {
     chamfer: { radius: radius },
     render: {
       sprite: {
