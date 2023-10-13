@@ -311,6 +311,18 @@ function initSimulation() {
       }
     }
   });
+
+             var tagContentCreation = Bodies.rectangle(containerWidth / 2 + 250, 420, 200, 56, {
+    chamfer: { radius: radius },
+    render: {
+      sprite: {
+        texture:
+          "https://uploads-ssl.webflow.com/650833d0628374915846188d/6529c0e9fd19962a33f21c8d_content-creation.svg",
+        xScale: 1,
+        yScale: 1
+      }
+    }
+  });
   
   // add all of the bodies to the world
   World.add(engine.world, [
