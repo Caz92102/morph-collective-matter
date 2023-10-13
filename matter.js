@@ -72,174 +72,170 @@ function initSimulation() {
   // create objects
 
   // tagVideo & design
-  var tagUiUx = Bodies.rectangle(containerWidth / 2 + 150, 500, 316, 67, {
+  var tagSociallistening = Bodies.rectangle(containerWidth / 2 + 150, 500, 138, 42, {
     chamfer: { radius: radius },
     render: {
       sprite: {
         texture:
-          "https://uploads-ssl.webflow.com/650833d0628374915846188d/651358639d6813128284a9cc_services-2.svg",
+          "https://uploads-ssl.webflow.com/650833d0628374915846188d/65292e509d83e70c72abbc2e_Group%20251.svg",
         xScale: 1,
         yScale: 1,
       }
     }
   });
-  var tagWordpress = Bodies.rectangle(containerWidth / 2 + 150, 460, 316, 67, {
+  var tagGrowthmarketing = Bodies.rectangle(containerWidth / 2 + 150, 460, 138, 66, {
     chamfer: { radius: radius },
     render: {
       sprite: {
         texture:
-				"https://uploads-ssl.webflow.com/650833d0628374915846188d/651358639d6813128284a9cc_services-2.svg",
+	"https://uploads-ssl.webflow.com/650833d0628374915846188d/65292e4f997559049bbb1af8_Group%20249.svg",
         xScale: 1,
         yScale: 1
       }
     }
   });
-  var tagWebflow = Bodies.rectangle(containerWidth / 2 + 250, 420, 316, 67, {
+  var tagEcommerce = Bodies.rectangle(containerWidth / 2 + 250, 420, 138, 31, {
     chamfer: { radius: radius },
     render: {
       sprite: {
         texture:
-         "https://uploads-ssl.webflow.com/650833d0628374915846188d/651358639d6813128284a9cc_services-2.svg",
+         "https://uploads-ssl.webflow.com/650833d0628374915846188d/65292e50364862915ffd4e92_Group%20253.svg",
         xScale: 1,
         yScale: 1
       }
     }
   });
-  var tagWhitelevel = Bodies.rectangle(containerWidth / 2 - 75, 380, 316, 67, {
+  var tagKpi = Bodies.rectangle(containerWidth / 2 - 75, 380, 66, 34, {
     chamfer: { radius: radius },
     render: {
       sprite: {
         texture:
-     "https://uploads-ssl.webflow.com/650833d0628374915846188d/651358639d6813128284a9cc_services-2.svg",
+     "https://uploads-ssl.webflow.com/650833d0628374915846188d/65292e4e7c26ce1cd9c74570_Group%20223.svg",
         xScale: 1,
         yScale: 1
       }
     }
   });
-  // video
-  var tagWebflowgreen = Bodies.rectangle(
-    containerWidth / 2 - 74,
-    540,
-    248,
-    56,
+  var tagConversionoptimization = Bodies.rectangle(
+    containerWidth / 2 - 74, 540, 138, 50,
     {
       chamfer: { radius: radius },
       render: {
         sprite: {
           texture:
-          "https://uploads-ssl.webflow.com/650833d0628374915846188d/651358639d6813128284a9cc_services-2.svg",
+          "https://uploads-ssl.webflow.com/650833d0628374915846188d/65292e4f7f97d75a75987a31_Group%20248.svg",
           xScale: 1,
           yScale: 1
         }
       }
     }
   );
-  var tagSass = Bodies.rectangle(containerWidth / 2 + 174, 490, 316, 67, {
+  var tagCostumerjourney = Bodies.rectangle(containerWidth / 2 + 174, 490, 150, 32, {
     chamfer: { radius: radius },
     render: {
       sprite: {
         texture:
-          "https://uploads-ssl.webflow.com/650833d0628374915846188d/651358639d6813128284a9cc_services-2.svg",
+          "https://uploads-ssl.webflow.com/650833d0628374915846188d/65292e4fbeb8ced8d08e15f3_Group%20246.svg",
         xScale: 1,
         yScale: 1
       }
     }
   });
-  var tagWeb = Bodies.rectangle(containerWidth / 2 - 142, 440, 316, 67, {
+  var tagContentchannel = Bodies.rectangle(containerWidth / 2 - 142, 440, 162, 52, {
     chamfer: { radius: radius },
     render: {
       sprite: {
         texture:
-     "https://uploads-ssl.webflow.com/650833d0628374915846188d/651358639d6813128284a9cc_services-2.svg",
+     "https://uploads-ssl.webflow.com/650833d0628374915846188d/65292e50a852708cdf0d9aec_Group%20250.svg",
         xScale: 1,
         yScale: 1
       }
     }
   });
-  var tagStartup = Bodies.rectangle(containerWidth / 2 - 10, 260, 316, 67, {
+  var tagConsumerbehavior = Bodies.rectangle(containerWidth / 2 - 10, 260, 154, 32, {
     chamfer: { radius: radius },
     render: {
       sprite: {
         texture:
-        "https://uploads-ssl.webflow.com/650833d0628374915846188d/651358639d6813128284a9cc_services-2.svg",
+        "https://uploads-ssl.webflow.com/650833d0628374915846188d/65292e4ffe4628f37ccdffb3_Group%20247.svg,
         xScale: 1,
         yScale: 1
       }
     }
   });
   //misc
-  var tagMaintence = Bodies.rectangle(containerWidth / 2 - 242, 420, 316, 67, {
+  var tagSeo = Bodies.rectangle(containerWidth / 2 - 242, 420, 60, 32, {
     chamfer: { radius: radius },
     render: {
       sprite: {
         texture:
-     "https://uploads-ssl.webflow.com/650833d0628374915846188d/651358639d6813128284a9cc_services-2.svg",
+     "https://uploads-ssl.webflow.com/650833d0628374915846188d/65292e4e71488398156972fc_Group%20218.svg",
         xScale: 1,
         yScale: 1
       }
     }
   });
-  var tagIntegration = Bodies.rectangle(containerWidth / 2 + 60, 380, 316, 67, {
+  var tagSem = Bodies.rectangle(containerWidth / 2 + 60, 380, 60, 34, {
     chamfer: { radius: radius },
     render: {
       sprite: {
         texture:
-       "https://uploads-ssl.webflow.com/650833d0628374915846188d/651358639d6813128284a9cc_services-2.svg",
+       "https://uploads-ssl.webflow.com/650833d0628374915846188d/65292e4f264dedce35e0301c_Group%20241.svg",
         xScale: 1,
         yScale: 1
       }
     }
   });
-  var tagMotion = Bodies.rectangle(containerWidth / 2, 360, 316, 67, {
+  var tagAcquisition = Bodies.rectangle(containerWidth / 2, 360, 138, 50, {
     chamfer: { radius: radius },
     render: {
       sprite: {
         texture:
-          "https://uploads-ssl.webflow.com/650833d0628374915846188d/651358639d6813128284a9cc_services-2.svg",
+          "https://uploads-ssl.webflow.com/650833d0628374915846188d/65292e4f264dedce35e0301c_Group%20241.svg",
         xScale: 1,
         yScale: 1
       }
     }
   });
-  var tagPay = Bodies.rectangle(containerWidth / 2 - 59, 260, 316, 67, {
+  var tagAdvertising = Bodies.rectangle(containerWidth / 2 - 59, 260, 172, 49, {
     chamfer: { radius: radius },
     render: {
       sprite: {
         texture:
-    "https://uploads-ssl.webflow.com/650833d0628374915846188d/651358639d6813128284a9cc_services-2.svg",
+    "https://uploads-ssl.webflow.com/650833d0628374915846188d/65292e4ed832aae1bf467b36_Group%20233.svg",
         xScale: 1,
         yScale: 1
       }
     }
   });
-  var tagGsap = Bodies.rectangle(containerWidth / 2 - 59, 260, 316, 67, {
+  var tagDigitalstrategy = Bodies.rectangle(containerWidth / 2 - 59, 260, 138, 28, {
     chamfer: { radius: radius },
     render: {
       sprite: {
         texture:
-         "https://uploads-ssl.webflow.com/650833d0628374915846188d/651358639d6813128284a9cc_services-2.svg",
+         "https://uploads-ssl.webflow.com/650833d0628374915846188d/65292e4e5ec19109e2cc63ef_Group%20222.svg",
         xScale: 1,
         yScale: 1
       }
     }
   });
-  var tagFigma = Bodies.rectangle(containerWidth / 2 - 59, 260, 316, 67, {
+  var tagCommsplanning = Bodies.rectangle(containerWidth / 2 - 59, 260, 153, 32, {
     chamfer: { radius: radius },
     render: {
       sprite: {
         texture:
-     "https://uploads-ssl.webflow.com/650833d0628374915846188d/651358639d6813128284a9cc_services-2.svg",
+     "https://uploads-ssl.webflow.com/650833d0628374915846188d/65292e4fb584cf77f8c64c1b_Group%20245.svg",
         xScale: 1,
         yScale: 1
       }
     }
   });
-  var tagMigration = Bodies.rectangle(containerWidth / 2 - 59, 260, 316, 67, {
+  var tagCRM = Bodies.rectangle(containerWidth / 2 - 59, 260, 138, 28, {
     chamfer: { radius: radius },
     render: {
       sprite: {
         texture:
-      "https://uploads-ssl.webflow.com/650833d0628374915846188d/65271ee82cbf8363b420b9f1_Asset%203.svg",
+      "https://uploads-ssl.webflow.com/650833d0628374915846188d/65292e4e9f1800f5040f9c0c_Group%20219.svg",
         xScale: 1,
         yScale: 1
       }
@@ -252,21 +248,35 @@ function initSimulation() {
     wallLeft,
     wallRight,
     roof,
-    tagUiUx,
-    tagWordpress,
-    tagWebflow,
-    tagWhitelevel,
-    tagWebflowgreen,
-    tagSass,
-    tagWeb,
-    tagStartup,
-    tagMaintence,
-    tagIntegration,
-    tagMotion,
-    tagPay,
-    tagGsap,
-    tagFigma,
-    tagMigration,
+
+tagsociallistening,
+tagCRM,
+tagCommsplanning,
+tagDigitalstrategy,
+tagAdvertising,
+	  tagAcquisition,
+	  tagSem,
+	  tagSeo,
+	  tagConsumerbehavior,
+	  tagContentchannel,
+	  tagCostumerjourney,
+	  tagConversionoptimization,
+	  tagKpi,
+	  tagEcommerce,
+	  tagGrowthmarketing,
+	  tagSociallistening,
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	
+ 
   ]);
 
   // add mouse control
