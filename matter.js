@@ -185,17 +185,7 @@ function initSimulation() {
       }
     }
   });
-  var tagAnimation = Bodies.rectangle(containerWidth / 59, 260, 172, 56, {
-    chamfer: { radius: radius },
-    render: {
-      sprite: {
-        texture:
-          "https://uploads-ssl.webflow.com/650833d0628374915846188d/652993cab48d07bbf90bfa37_animation-matter.svg",
-        xScale: 1,
-        yScale: 1
-      }
-    }
-  });
+ 
   // Branding
   var tagProjectManagement = Bodies.rectangle(containerWidth / 2 + 150, 500, 164, 56, {
     chamfer: { radius: radius },
@@ -309,17 +299,7 @@ function initSimulation() {
       }
     }
   });
-  var tagProduction = Bodies.rectangle(containerWidth / 59, 260, 172, 56, {
-    chamfer: { radius: radius },
-    render: {
-      sprite: {
-        texture:
-          "https://uploads-ssl.webflow.com/650833d0628374915846188d/65299e0cb910c6e29934501f_production.svg",
-        xScale: 1,
-        yScale: 1
-      }
-    }
-  });
+
   // add all of the bodies to the world
   World.add(engine.world, [
     ground,
