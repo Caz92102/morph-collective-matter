@@ -138,7 +138,7 @@ function initSimulation() {
     render: {
       sprite: {
         texture:
-          "https://uploads-ssl.webflow.com/650833d0628374915846188d/65292e4fbeb8ced8d08e15f3_Group%20246-2.svg",
+          "https://uploads-ssl.webflow.com/650833d0628374915846188d/65295c6d79bf4d5a1a0edade_Group%20246-2.svg",
         xScale: 1,
         yScale: 1
       }
