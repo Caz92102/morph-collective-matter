@@ -244,27 +244,26 @@ function initSimulation() {
 
   // add all of the bodies to the world
   World.add(engine.world, [
-    ground,
-    wallLeft,
-    wallRight,
-    roof,
-
+ground,
+wallLeft,
+wallRight,
+roof,
 tagSociallistening,
 tagCRM,
 tagCommsplanning,
 tagDigitalstrategy,
 tagAdvertising,
-	  tagAcquisition,
-	  tagSem,
-	  tagSeo,
-	  tagConsumerbehavior,
-	  tagContentchannel,
-	  tagCostumerjourney,
-	  tagConversionoptimization,
-	  tagKpi,
-	  tagEcommerce,
-	  tagGrowthmarketing,
-	  tagSociallistening,
+tagAcquisition,
+tagSem,
+tagSeo,
+tagConsumerbehavior,
+tagContentchannel,
+tagCostumerjourney,
+tagConversionoptimization,
+tagKpi,
+tagEcommerce,
+tagGrowthmarketing,
+tagSociallistening,
 	  
 	  
 	  
