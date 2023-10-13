@@ -220,17 +220,6 @@ function initSimulation() {
       }
     }
   });
- var tagCopymatter = Bodies.rectangle(containerWidth / 2 - 75, 380, 160, 56, {
-    chamfer: { radius: radius },
-    render: {
-      sprite: {
-        texture:
-          "https://uploads-ssl.webflow.com/650833d0628374915846188d/65299a579f5b005c8550641d_copy-matter.svg",
-        xScale: 1,
-        yScale: 1
-      }
-    }
-  });
   var tagPhotography = Bodies.rectangle(containerWidth / 2 - 74, 540, 248, 56, {
       chamfer: { radius: radius },
       render: {
@@ -278,7 +267,6 @@ function initSimulation() {
     tagProjectManagement,
     tagVideography,
     tagPhotography,
-    tagCopymatter,
   ]);
 
   // add mouse control
