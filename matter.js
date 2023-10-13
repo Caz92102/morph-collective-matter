@@ -187,12 +187,12 @@ function initSimulation() {
   });
 
   // Branding
-  var tagProjectManagement = Bodies.rectangle(containerWidth / 2 + 150, 500, 164, 56, {
+  var tagProjectManagement = Bodies.rectangle(containerWidth / 2 + 150, 460, 240, 56,  {
     chamfer: { radius: radius },
     render: {
       sprite: {
         texture:
-          "https://uploads-ssl.webflow.com/650833d0628374915846188d/652998a8818b1d4d5cefa75d_porject.svg",
+          "https://uploads-ssl.webflow.com/650833d0628374915846188d/6529afcf675e9e3c3489ffa6_pm.svg",
         xScale: 1,
         yScale: 1
       }
