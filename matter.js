@@ -241,8 +241,7 @@ function initSimulation() {
       }
     }
   });
-  var tagPhotography = Bodies.rectangle(
-    containerWidth / 2 - 74, 540, 248, 56, {
+  var tagPhotography = Bodies.rectangle(containerWidth / 2 - 74, 540, 248, 56, {
       chamfer: { radius: radius },
       render: {
         sprite: {
@@ -254,8 +253,7 @@ function initSimulation() {
       }
     }
   });
-  var tagVideography = Bodies.rectangle(
-    containerWidth / 2 - 74, 540, 248, 56, {
+  var tagVideography = Bodies.rectangle(containerWidth / 2 - 74, 540, 248, 56, {
       chamfer: { radius: radius },
       render: {
         sprite: {
