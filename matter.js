@@ -185,9 +185,7 @@ function initSimulation() {
       }
     }
   });
- 
-
-
+  
   // add all of the bodies to the world
   World.add(engine.world, [
     ground,
