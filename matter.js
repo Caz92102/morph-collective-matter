@@ -72,180 +72,121 @@ function initSimulation() {
 
   // create objects
 
-  // tagVideo & design
-  var tagUiUx = Bodies.rectangle(containerWidth / 2 + 150, 500, 164, 56, {
+  // Digital
+  var tagUserresearch = Bodies.rectangle(containerWidth / 2 + 150, 500, 164, 56, {
     chamfer: { radius: radius },
     render: {
       sprite: {
         texture:
-          "https://uploads-ssl.webflow.com/64f41ea3b31af27272713c03/64f47541d38f6886e5747c1d_uiux.svg",
+          "https://uploads-ssl.webflow.com/650833d0628374915846188d/65298b23af0e864ce18df650_Group%202516.svg",
         xScale: 1,
         yScale: 1
       }
     }
   });
-  var tagWordpress = Bodies.rectangle(containerWidth / 2 + 150, 460, 240, 56, {
+  var tagWebflow = Bodies.rectangle(containerWidth / 2 + 150, 460, 240, 56, {
     chamfer: { radius: radius },
     render: {
       sprite: {
         texture:
-          "https://uploads-ssl.webflow.com/64f41ea3b31af27272713c03/64f47540055ab00edffa0a68_wordpress.svg",
+          "https://uploads-ssl.webflow.com/650833d0628374915846188d/65298b220cd3971d13235f8f_Group%202508.svg",
         xScale: 1,
         yScale: 1
       }
     }
   });
-  var tagWebflow = Bodies.rectangle(containerWidth / 2 + 250, 420, 200, 56, {
+  var tagMaterialdesign = Bodies.rectangle(containerWidth / 2 + 250, 420, 200, 56, {
     chamfer: { radius: radius },
     render: {
       sprite: {
         texture:
-          "https://uploads-ssl.webflow.com/64f41ea3b31af27272713c03/64f475405a7c8ff69c27ed37_webflow.svg",
+          "https://uploads-ssl.webflow.com/650833d0628374915846188d/65298b22b834132d5b79beb6_Group%202509.svg",
         xScale: 1,
         yScale: 1
       }
     }
   });
-  var tagWhitelevel = Bodies.rectangle(containerWidth / 2 - 75, 380, 160, 56, {
+  var tagConceptdev = Bodies.rectangle(containerWidth / 2 - 75, 380, 160, 56, {
     chamfer: { radius: radius },
     render: {
       sprite: {
         texture:
-          "https://uploads-ssl.webflow.com/64f41ea3b31af27272713c03/64f47540c9a2047edbb293d1_whitelevel.svg",
+          "https://uploads-ssl.webflow.com/650833d0628374915846188d/65298b23297de02af3f55eda_Group%202510.svg",
         xScale: 1,
         yScale: 1
       }
     }
   });
-  // video
-  var tagWebflowgreen = Bodies.rectangle(
-    containerWidth / 2 - 74,
-    540,
-    248,
-    56,
+  var tagMotion = Bodies.rectangle(
+    containerWidth / 2 - 74, 540, 248, 56,
     {
       chamfer: { radius: radius },
       render: {
         sprite: {
           texture:
-            "https://uploads-ssl.webflow.com/64f41ea3b31af27272713c03/64f47540487abf2c397d777f_webflow-green.svg",
+            "https://uploads-ssl.webflow.com/650833d0628374915846188d/65298b23af0e864ce18df629_Group%202511.svg",
           xScale: 1,
           yScale: 1
         }
       }
     }
   );
-  var tagSass = Bodies.rectangle(containerWidth / 2 + 174, 490, 105, 56, {
+  var tagLottie = Bodies.rectangle(containerWidth / 2 + 174, 490, 105, 56, {
     chamfer: { radius: radius },
     render: {
       sprite: {
         texture:
-          "https://uploads-ssl.webflow.com/64f41ea3b31af27272713c03/64f475407ebe06e52f9283d1_sass.svg",
+          "https://uploads-ssl.webflow.com/650833d0628374915846188d/65298ce4ae3d89c388780387_lottie-matter.svg",
         xScale: 1,
         yScale: 1
       }
     }
   });
-  var tagWeb = Bodies.rectangle(containerWidth / 2 - 142, 440, 186, 56, {
+  var tagPrototyping = Bodies.rectangle(containerWidth / 2 - 142, 440, 186, 56, {
     chamfer: { radius: radius },
     render: {
       sprite: {
         texture:
-          "https://uploads-ssl.webflow.com/64f41ea3b31af27272713c03/64f47540f762b61424410849_web.svg",
+          "https://uploads-ssl.webflow.com/650833d0628374915846188d/65298d35e4d87e85116438ab_prototyping-matter.svg",
         xScale: 1,
         yScale: 1
       }
     }
   });
-  var tagStartup = Bodies.rectangle(containerWidth / 2 - 10, 260, 128, 56, {
+  var taguiux = Bodies.rectangle(containerWidth / 2 - 142, 440, 186, 56, {
     chamfer: { radius: radius },
     render: {
       sprite: {
         texture:
-          "https://uploads-ssl.webflow.com/64f41ea3b31af27272713c03/64f475402ae28c15adeba62f_startup.svg",
+          "https://uploads-ssl.webflow.com/650833d0628374915846188d/65298d7d99c37153d79bebc0_uiux.svg",
         xScale: 1,
         yScale: 1
       }
     }
   });
-  //misc
-  var tagMaintence = Bodies.rectangle(containerWidth / 2 - 242, 420, 168, 56, {
+  var tagComponent = Bodies.rectangle(containerWidth / 2 - 242, 420, 168, 56, {
     chamfer: { radius: radius },
     render: {
       sprite: {
         texture:
-          "https://uploads-ssl.webflow.com/64f41ea3b31af27272713c03/64f47540f86ad4f4175a1e69_maintence.svg",
+          "https://uploads-ssl.webflow.com/650833d0628374915846188d/65298e50b4930aaef8bafe01_component.svg",
         xScale: 1,
         yScale: 1
       }
     }
   });
-  var tagIntegration = Bodies.rectangle(containerWidth / 2 + 60, 380, 155, 56, {
+  var tag3d = Bodies.rectangle(containerWidth / 2 + 174, 490, 105, 56, {
     chamfer: { radius: radius },
     render: {
       sprite: {
         texture:
-          "https://uploads-ssl.webflow.com/64f41ea3b31af27272713c03/64f47540035d9b03fc33e447_integration.svg",
+          "https://uploads-ssl.webflow.com/650833d0628374915846188d/65298b23b910c6e2991da808_Group%202517.svg",
         xScale: 1,
         yScale: 1
       }
     }
   });
-  var tagMotion = Bodies.rectangle(containerWidth / 2, 360, 180, 56, {
-    chamfer: { radius: radius },
-    render: {
-      sprite: {
-        texture:
-          "https://uploads-ssl.webflow.com/64f41ea3b31af27272713c03/64f475405a7c8ff69c27ed00_motion.svg",
-        xScale: 1,
-        yScale: 1
-      }
-    }
-  });
-  var tagPay = Bodies.rectangle(containerWidth / 2 - 59, 260, 172, 56, {
-    chamfer: { radius: radius },
-    render: {
-      sprite: {
-        texture:
-          "https://uploads-ssl.webflow.com/64f41ea3b31af27272713c03/64f475406ef461a95eaa0f12_pay.svg",
-        xScale: 1,
-        yScale: 1
-      }
-    }
-  });
-  var tagGsap = Bodies.rectangle(containerWidth / 2 - 59, 260, 115, 56, {
-    chamfer: { radius: radius },
-    render: {
-      sprite: {
-        texture:
-          "https://uploads-ssl.webflow.com/64f41ea3b31af27272713c03/64f47540f86ad4f4175a1df1_gsap.svg",
-        xScale: 1,
-        yScale: 1
-      }
-    }
-  });
-  var tagFigma = Bodies.rectangle(containerWidth / 2 - 59, 260, 210, 56, {
-    chamfer: { radius: radius },
-    render: {
-      sprite: {
-        texture:
-          "https://uploads-ssl.webflow.com/64f41ea3b31af27272713c03/64f475407a05afc618131310_figma.svg",
-        xScale: 1,
-        yScale: 1
-      }
-    }
-  });
-  var tagMigration = Bodies.rectangle(containerWidth / 2 - 59, 260, 145, 56, {
-    chamfer: { radius: radius },
-    render: {
-      sprite: {
-        texture:
-          "https://uploads-ssl.webflow.com/64f41ea3b31af27272713c03/64f47540bfb0eee6858d556a_migration.svg",
-        xScale: 1,
-        yScale: 1
-      }
-    }
-  });
+
 
   // add all of the bodies to the world
   World.add(engine.world, [
@@ -253,21 +194,16 @@ function initSimulation() {
     wallLeft,
     wallRight,
     roof,
-    tagUiUx,
-    tagWordpress,
-    tagWebflow,
-    tagWhitelevel,
-    tagWebflowgreen,
-    tagSass,
-    tagWeb,
-    tagStartup,
-    tagMaintence,
-    tagIntegration,
+    tag3d,
+    tagComponent,
+    taguiux,
+    tagPrototyping,
+    tagLottie,
     tagMotion,
-    tagPay,
-    tagGsap,
-    tagFigma,
-    tagMigration,
+    tagConceptdev,
+    tagMaterialdesign,
+    tagWebflow,
+    tagUserresearch,
   ]);
 
   // add mouse control
