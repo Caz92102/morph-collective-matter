@@ -78,7 +78,7 @@ function initSimulation() {
     render: {
       sprite: {
         texture:
-          "https://uploads-ssl.webflow.com/650833d0628374915846188d/65298b23af0e864ce18df650_Group%202516.svg",
+          "https://uploads-ssl.webflow.com/650833d0628374915846188d/65298b244da0f365aef283d4_Group%202518.svg",
         xScale: 1,
         yScale: 1
       }
