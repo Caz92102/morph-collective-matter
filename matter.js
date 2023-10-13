@@ -185,6 +185,41 @@ function initSimulation() {
       }
     }
   });
+
+  // Branding
+  var tagProjectManagement = Bodies.rectangle(containerWidth / 2 + 150, 500, 164, 56, {
+    chamfer: { radius: radius },
+    render: {
+      sprite: {
+        texture:
+          "https://uploads-ssl.webflow.com/650833d0628374915846188d/652998a8818b1d4d5cefa75d_porject.svg",
+        xScale: 1,
+        yScale: 1
+      }
+    }
+  });
+  var tagVisualidentity = Bodies.rectangle(containerWidth / 2 + 150, 460, 240, 56, {
+    chamfer: { radius: radius },
+    render: {
+      sprite: {
+        texture:
+          "https://uploads-ssl.webflow.com/650833d0628374915846188d/652999033c621cb4799ba5e8_vi.svg",
+        xScale: 1,
+        yScale: 1
+      }
+    }
+  });
+  var tagArtdirection = Bodies.rectangle(containerWidth / 2 + 250, 420, 200, 56, {
+    chamfer: { radius: radius },
+    render: {
+      sprite: {
+        texture:
+          "https://uploads-ssl.webflow.com/650833d0628374915846188d/652999ece7895db2b0ae42aa_ad-matter.svg",
+        xScale: 1,
+        yScale: 1
+      }
+    }
+  });
   
   // add all of the bodies to the world
   World.add(engine.world, [
@@ -202,6 +237,10 @@ function initSimulation() {
     tagMaterialdesign,
     tagWebflow,
     tagUserresearch,
+    tagArtdirection,
+    tagVisualidentity,
+    tagProjectManagement,
+    
   ]);
 
   // add mouse control
