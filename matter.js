@@ -279,7 +279,6 @@ function initSimulation() {
     tagVideography,
     tagPhotography,
     tagCopymatter,
-    
   ]);
 
   // add mouse control
