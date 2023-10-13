@@ -72,7 +72,7 @@ function initSimulation() {
   // create objects
 
   // tagVideo & design
-  var tagSociallistening = Bodies.rectangle(containerWidth / 2, 50, 138, 42, {
+  var tagSociallistening = Bodies.rectangle(containerWidth / 2, 50, 200, 80, {
     chamfer: { radius: radius },
     render: {
       sprite: {
@@ -83,7 +83,7 @@ function initSimulation() {
       }
     }
   });
-  var tagGrowthmarketing = Bodies.rectangle(containerWidth / 2, 200, 138, 66, {
+  var tagGrowthmarketing = Bodies.rectangle(containerWidth / 2, 200, 200, 100, {
     chamfer: { radius: radius },
     render: {
       sprite: {
