@@ -242,7 +242,7 @@ function initSimulation() {
       }
     }
   });
-      var tagillustrations = Bodies.rectangle(containerWidth / 2 - 75, 380, 160, 56, {
+      var tagIllustrations = Bodies.rectangle(containerWidth / 2 - 75, 380, 160, 56, {
     chamfer: { radius: radius },
     render: {
       sprite: {
@@ -275,7 +275,7 @@ function initSimulation() {
     tagProjectManagement,
     tagVideo,
     tagPhoto,
-    tagillustrations,
+    tagIllustrations,
   ]);
 
   // add mouse control
