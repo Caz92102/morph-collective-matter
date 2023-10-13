@@ -97,7 +97,7 @@ function initSimulation() {
       }
     }
   });
-  var tagEcommerce = Bodies.rectangle(containerWidth / 2 + 250, 420, 138, 31, {
+  var tagEcommerce = Bodies.rectangle(containerWidth / 2 + 250, 420, 165, 80, {
     chamfer: { radius: radius },
     render: {
       sprite: {
