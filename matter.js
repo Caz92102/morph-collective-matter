@@ -325,6 +325,7 @@ function initSimulation() {
     tagWorkshops,
     tagCustom,
     tagBrandstrategy,
+    tagProduction,
   ]);
 
   // add mouse control
