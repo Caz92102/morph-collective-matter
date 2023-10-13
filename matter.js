@@ -186,7 +186,7 @@ function initSimulation() {
       }
     }
   });
-    var tagAnimation = Bodies.rectangle(containerWidth / 59, 260, 172, 56, {
+  var tagAnimation = Bodies.rectangle(containerWidth / 59, 260, 172, 56, {
     chamfer: { radius: radius },
     render: {
       sprite: {
@@ -256,7 +256,7 @@ function initSimulation() {
         }
       }
     }
-  );
+  });
   var tagVideography = Bodies.rectangle(
     containerWidth / 2 - 74, 540, 248, 56,
     {
@@ -268,17 +268,6 @@ function initSimulation() {
           xScale: 1,
           yScale: 1
         }
-      }
-    }
-  );
-  var tagIllustrations = Bodies.rectangle(containerWidth / 2 - 75, 380, 160, 56 {
-    chamfer: { radius: radius },
-    render: {
-      sprite: {
-        texture:
-          "https://uploads-ssl.webflow.com/650833d0628374915846188d/65299c97d43fb9256765ae3d_illustrations.svg",
-        xScale: 1,
-        yScale: 1
       }
     }
   });
@@ -326,7 +315,7 @@ function initSimulation() {
       }
     }
   });
-    var tagProduction = Bodies.rectangle(containerWidth / 59, 260, 172, 56, {
+  var tagProduction = Bodies.rectangle(containerWidth / 59, 260, 172, 56, {
     chamfer: { radius: radius },
     render: {
       sprite: {
