@@ -264,7 +264,7 @@ function initSimulation() {
       }
     }
   });
-          var tagcustom = Bodies.rectangle(containerWidth / 2 - 142, 440, 186, 56, {
+          var tagCustom = Bodies.rectangle(containerWidth / 2 - 142, 440, 186, 56, {
     chamfer: { radius: radius },
     render: {
       sprite: {
@@ -299,7 +299,7 @@ function initSimulation() {
     tagPhoto,
     tagIllustrations,
     tagWorkshops,
-    tagcustom,
+    tagCustom,
   ]);
 
   // add mouse control
