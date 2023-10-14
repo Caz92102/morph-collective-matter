@@ -479,6 +479,54 @@ function initSimulation() {
       }
     }
   });
+
+        var tagCustomerjourney = Bodies.rectangle(containerWidth / 2 + 150, 460, 240, 56 {
+    chamfer: { radius: radius },
+    render: {
+      sprite: {
+        texture:
+          "https://uploads-ssl.webflow.com/650833d0628374915846188d/652aed6b222a1e9f8bcd0d95_cu.svg",
+        xScale: 1,
+        yScale: 1
+      }
+    }
+  });
+
+          var tagReporting = Bodies.rectangle(containerWidth / 2 - 142, 440, 186, 56, {
+    chamfer: { radius: radius },
+    render: {
+      sprite: {
+        texture:
+          "https://uploads-ssl.webflow.com/650833d0628374915846188d/652aedc79c1f4e8c41cfab72_report.svg",
+        xScale: 1,
+        yScale: 1
+      }
+    }
+  });
+
+            var tagMediabuying = Bodies.rectangle(containerWidth / 2 - 142, 440, 186, 56, {
+    chamfer: { radius: radius },
+    render: {
+      sprite: {
+        texture:
+          "https://uploads-ssl.webflow.com/650833d0628374915846188d/652aedf2161daabd6b2a27c7_mediabuy.svg",
+        xScale: 1,
+        yScale: 1
+      }
+    }
+  });
+
+         var tagConsumerbehavior = Bodies.rectangle(containerWidth / 2 + 150, 460, 240, 56 {
+    chamfer: { radius: radius },
+    render: {
+      sprite: {
+        texture:
+          "https://uploads-ssl.webflow.com/650833d0628374915846188d/652aee2e79cbf4ed077ceb09_consumerbehavior.svg",
+        xScale: 1,
+        yScale: 1
+      }
+    }
+  });
   
   // add all of the bodies to the world
   World.add(engine.world, [
@@ -521,6 +569,10 @@ function initSimulation() {
     tagSociallistening,
     tagCommsplanning,
     tagMediaplanning,
+    tagCustomerjourney,
+    tagReporting,
+    tagMediabuying,
+    tagConsumerbehavior,
   ]);
 
   // add mouse control
