@@ -371,6 +371,30 @@ function initSimulation() {
       }
     }
   });
+
+       var tagCrm = Bodies.rectangle(containerWidth / 2 - 59, 260, 210, 56, {
+    chamfer: { radius: radius },
+    render: {
+      sprite: {
+        texture:
+          "https://uploads-ssl.webflow.com/650833d0628374915846188d/652aa0009a8da6be305d5f01_seo.svg",
+        xScale: 1,
+        yScale: 1
+      }
+    }
+  });
+
+     var tagDigitalstrategy = Bodies.rectangle(containerWidth / 2 - 59, 260, 210, 56, {
+    chamfer: { radius: radius },
+    render: {
+      sprite: {
+        texture:
+          "https://uploads-ssl.webflow.com/650833d0628374915846188d/652aa229e3e8f9733798dcdd_ds.svg",
+        xScale: 1,
+        yScale: 1
+      }
+    }
+  });
   
   // add all of the bodies to the world
   World.add(engine.world, [
@@ -404,6 +428,8 @@ function initSimulation() {
     tagKpi,
     tagAcquisitionstrategy,
     tagSeo,
+    tagCrm,
+    tagDigitalstrategy,
   ]);
 
   // add mouse control
