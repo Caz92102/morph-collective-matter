@@ -425,7 +425,55 @@ function initSimulation() {
     render: {
       sprite: {
         texture:
-          "https://uploads-ssl.webflow.com/650833d0628374915846188d/652aa4b2d18b14276208f885_sem.svg",
+          "https://uploads-ssl.webflow.com/650833d0628374915846188d/652aa514cd21e84660e63e4a_sem105.svg",
+        xScale: 1,
+        yScale: 1
+      }
+    }
+  });
+
+      var tagEcommerce = Bodies.rectangle(containerWidth / 2 - 59, 260, 210, 56, {
+    chamfer: { radius: radius },
+    render: {
+      sprite: {
+        texture:
+          "https://uploads-ssl.webflow.com/650833d0628374915846188d/652aa5826af926707a73ad1a_ecommerce.svg",
+        xScale: 1,
+        yScale: 1
+      }
+    }
+  });
+
+      var tagSociallistening = Bodies.rectangle(containerWidth / 2 - 142, 440, 186, 56, {
+    chamfer: { radius: radius },
+    render: {
+      sprite: {
+        texture:
+          "https://uploads-ssl.webflow.com/650833d0628374915846188d/652aa61913ed5242e01e92c8_sociallistening.svg",
+        xScale: 1,
+        yScale: 1
+      }
+    }
+  });
+
+        var tagCommsplanning = Bodies.rectangle(containerWidth / 2 - 59, 260, 210, 56, {
+    chamfer: { radius: radius },
+    render: {
+      sprite: {
+        texture:
+          "https://uploads-ssl.webflow.com/650833d0628374915846188d/652aa61913ed5242e01e92c8_sociallistening.svg",
+        xScale: 1,
+        yScale: 1
+      }
+    }
+  });
+
+        var tagMediaplanning = Bodies.rectangle(containerWidth / 2 - 142, 440, 186, 56, {
+    chamfer: { radius: radius },
+    render: {
+      sprite: {
+        texture:
+          "https://uploads-ssl.webflow.com/650833d0628374915846188d/652aa6c69a8da6be3064e8ac_media-planning.svg",
         xScale: 1,
         yScale: 1
       }
@@ -469,6 +517,10 @@ function initSimulation() {
     tagConversion,
     tagAds,
     tagSem,
+    tagEcommerce,
+    tagSociallistening,
+    tagCommsplanning,
+    tagMediaplanning,
   ]);
 
   // add mouse control
