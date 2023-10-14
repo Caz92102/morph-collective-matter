@@ -377,7 +377,7 @@ function initSimulation() {
     render: {
       sprite: {
         texture:
-          "https://uploads-ssl.webflow.com/650833d0628374915846188d/652aa0009a8da6be305d5f01_seo.svg",
+          "https://uploads-ssl.webflow.com/650833d0628374915846188d/652aa1feb62af154c43985e5_crm.svg",
         xScale: 1,
         yScale: 1
       }
@@ -414,6 +414,18 @@ function initSimulation() {
       sprite: {
         texture:
           "https://uploads-ssl.webflow.com/650833d0628374915846188d/652aa32f675e9e3c3478a1e6_ads.svg",
+        xScale: 1,
+        yScale: 1
+      }
+    }
+  });
+
+       var tagSem = Bodies.rectangle(containerWidth / 2 + 174, 490, 105, 56, {
+    chamfer: { radius: radius },
+    render: {
+      sprite: {
+        texture:
+          "https://uploads-ssl.webflow.com/650833d0628374915846188d/652aa4b2d18b14276208f885_sem.svg",
         xScale: 1,
         yScale: 1
       }
@@ -456,6 +468,7 @@ function initSimulation() {
     tagDigitalstrategy,
     tagConversion,
     tagAds,
+    tagSem,
   ]);
 
   // add mouse control
