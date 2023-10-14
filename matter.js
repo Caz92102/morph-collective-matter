@@ -407,8 +407,7 @@ function initSimulation() {
       }
     }
   });
-
-      var tagAds = Bodies.rectangle(containerWidth / 2 - 74, 540, 248, 56, {
+ var tagAds = Bodies.rectangle(containerWidth / 2 - 74, 540, 248, 56, {
     chamfer: { radius: radius },
     render: {
       sprite: {
@@ -419,8 +418,7 @@ function initSimulation() {
       }
     }
   });
-
-       var tagSem = Bodies.rectangle(containerWidth / 2 + 174, 490, 105, 56, {
+var tagSem = Bodies.rectangle(containerWidth / 2 + 174, 490, 105, 56, {
     chamfer: { radius: radius },
     render: {
       sprite: {
@@ -431,8 +429,7 @@ function initSimulation() {
       }
     }
   });
-
-      var tagEcommerce = Bodies.rectangle(containerWidth / 2 - 59, 260, 210, 56, {
+var tagEcommerce = Bodies.rectangle(containerWidth / 2 - 59, 260, 210, 56, {
     chamfer: { radius: radius },
     render: {
       sprite: {
@@ -443,8 +440,7 @@ function initSimulation() {
       }
     }
   });
-
-      var tagSociallistening = Bodies.rectangle(containerWidth / 2 - 142, 440, 186, 56, {
+var tagSociallistening = Bodies.rectangle(containerWidth / 2 - 142, 440, 186, 56, {
     chamfer: { radius: radius },
     render: {
       sprite: {
@@ -455,8 +451,7 @@ function initSimulation() {
       }
     }
   });
-
-        var tagCommsplanning = Bodies.rectangle(containerWidth / 2 - 59, 260, 210, 56, {
+var tagCommsplanning = Bodies.rectangle(containerWidth / 2 - 59, 260, 210, 56, {
     chamfer: { radius: radius },
     render: {
       sprite: {
@@ -467,8 +462,7 @@ function initSimulation() {
       }
     }
   });
-
-        var tagMediaplanning = Bodies.rectangle(containerWidth / 2 - 142, 440, 186, 56, {
+var tagMediaplanning = Bodies.rectangle(containerWidth / 2 - 142, 440, 186, 56, {
     chamfer: { radius: radius },
     render: {
       sprite: {
@@ -479,8 +473,7 @@ function initSimulation() {
       }
     }
   });
-
-        var tagCustomerjourney = Bodies.rectangle(containerWidth / 2 + 150, 460, 240, 56 {
+var tagCustomerjourney = Bodies.rectangle(containerWidth / 2 + 150, 460, 240, 56, {
     chamfer: { radius: radius },
     render: {
       sprite: {
@@ -491,8 +484,7 @@ function initSimulation() {
       }
     }
   });
-
-          var tagReporting = Bodies.rectangle(containerWidth / 2 - 142, 440, 186, 56, {
+var tagReporting = Bodies.rectangle(containerWidth / 2 - 142, 440, 186, 56, {
     chamfer: { radius: radius },
     render: {
       sprite: {
@@ -503,8 +495,7 @@ function initSimulation() {
       }
     }
   });
-
-            var tagMediabuying = Bodies.rectangle(containerWidth / 2 - 142, 440, 186, 56, {
+var tagMediabuying = Bodies.rectangle(containerWidth / 2 - 142, 440, 186, 56, {
     chamfer: { radius: radius },
     render: {
       sprite: {
@@ -515,8 +506,7 @@ function initSimulation() {
       }
     }
   });
-
-         var tagConsumerbehavior = Bodies.rectangle(containerWidth / 2 + 150, 460, 240, 56 {
+var tagConsumerbehavior = Bodies.rectangle(containerWidth / 2 + 150, 460, 240, 56 {
     chamfer: { radius: radius },
     render: {
       sprite: {
