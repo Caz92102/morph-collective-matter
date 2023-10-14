@@ -506,7 +506,7 @@ var tagMediabuying = Bodies.rectangle(containerWidth / 2 - 142, 440, 186, 56, {
       }
     }
   });
-var tagConsumerbehavior = Bodies.rectangle(containerWidth / 2 + 150, 460, 240, 56 {
+var tagConsumerbehavior = Bodies.rectangle(containerWidth / 2 + 150, 460, 240, 56, {
     chamfer: { radius: radius },
     render: {
       sprite: {
