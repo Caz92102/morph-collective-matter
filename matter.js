@@ -347,6 +347,30 @@ function initSimulation() {
       }
     }
   });
+
+           var tagAcquisitionstrategy = Bodies.rectangle(containerWidth / 2 + 150, 460, 240, 56, {
+    chamfer: { radius: radius },
+    render: {
+      sprite: {
+        texture:
+          "https://uploads-ssl.webflow.com/650833d0628374915846188d/652a9fbad18b142762035c2e_as.svg",
+        xScale: 1,
+        yScale: 1
+      }
+    }
+  });
+
+     var tagSeo = Bodies.rectangle(containerWidth / 2 + 174, 490, 105, 56, {
+    chamfer: { radius: radius },
+    render: {
+      sprite: {
+        texture:
+          "https://uploads-ssl.webflow.com/650833d0628374915846188d/652aa0009a8da6be305d5f01_seo.svg",
+        xScale: 1,
+        yScale: 1
+      }
+    }
+  });
   
   // add all of the bodies to the world
   World.add(engine.world, [
@@ -378,6 +402,8 @@ function initSimulation() {
     tagContentcreation,
     tagGrowthmarketing,
     tagKpi,
+    tagAcquisitionstrategy,
+    tagSeo,
   ]);
 
   // add mouse control
