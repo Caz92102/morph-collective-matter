@@ -1,4 +1,5 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.19.0/matter.min.js"></script>
+
 <script>
 function initSimulation() {
   var Engine = Matter.Engine,
@@ -50,7 +51,8 @@ function initSimulation() {
   var wallRight = Bodies.rectangle(
     containerWidth + 80,
     containerHeight / 2,
-    160, 1600
+    160,
+    1200,
     { isStatic: true }
   );
   var roof = Bodies.rectangle(
