@@ -43,7 +43,7 @@ function initSimulation() {
   var wallLeft = Bodies.rectangle(
     -80,
     containerHeight / 2,
-    160, 1800,
+    160, 1200,
     containerHeight,
     { isStatic: true }
   );
