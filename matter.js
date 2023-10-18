@@ -43,14 +43,14 @@ function initSimulation() {
   var wallLeft = Bodies.rectangle(
     -80,
     containerHeight / 2,
-    160, 1200,
+    160,
     containerHeight,
     { isStatic: true }
   );
   var wallRight = Bodies.rectangle(
     containerWidth + 80,
     containerHeight / 2,
-    160,
+    160, 1600
     { isStatic: true }
   );
   var roof = Bodies.rectangle(
