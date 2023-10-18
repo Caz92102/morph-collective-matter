@@ -51,7 +51,6 @@ function initSimulation() {
     containerWidth + 80,
     containerHeight / 2,
     160,
-    1200,
     { isStatic: true }
   );
   var roof = Bodies.rectangle(
