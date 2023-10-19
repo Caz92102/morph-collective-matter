@@ -548,7 +548,6 @@ var tagConsumerbehavior = Bodies.rectangle(containerWidth / 2 + 150, 460, 240, 5
     tagStorytelling,
     tagContentcreation,
     tagGrowthmarketing,
-    tagKpi,
     tagAcquisitionstrategy,
     tagSeo,
     tagCrm,
